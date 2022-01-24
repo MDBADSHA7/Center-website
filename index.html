@@ -46,7 +46,7 @@
             </nav>
         </section>
         <!-- Slider -->
-        <section class=" container">
+        <section class=" container sm-col-1">
                                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-indicators">
                                             <button type="button" data-bs-target="#carouselExampleCaptions"
@@ -122,12 +122,24 @@
         </section>
     </header>
     <!-- Bonas part -->
-    <main class="container">
+    <main class="container sm-col-1 md-col-2 lg-col-2">
         <div class="bonas mt-5 ps-5 d-flex ">
             <div class="image">
                 <img src="images/marrige.png" alt="">
             </div>
             <div class="written ms-5 me-5">
+                <!-- tosts -->
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
                 <h1>This is a rich man's marrige picture</h1>
                 <p>This ia a very popular person's marrige picture.It was two years ago's ago picture.</p>
                 This marrige was very
@@ -137,7 +149,7 @@
         </div>
         <!-- Pcckage items -->
         <h1 class="text-center mt-5">Our package</h1>
-        <section class="container">
+        <section class="container sm-col-1 md-col-2 lg-col-4">
             <div class="container mt-5">
                 <div class="row row-cols-4">
                     <div class="col">
@@ -203,7 +215,7 @@
         <!-- Bonas part 2 -->
         <h1 class="text-center mt-5">My favorate person</h1>
         <!-- Image card -->
-        <section class="container">
+        <section class="container sm-col-1 md-col-2 lg-col-3">
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 <div class="col">
                     <div class="card h-100">
@@ -248,7 +260,7 @@
         <!-- mantatory part -->
         <h1 class="text-center mt-5">Frequently Asked Question</h1>
         <!-- Dropdown -->
-        <section class="container">
+        <section class="container sm-col-1 md-col-2 lg-col-2">
             <div class="d-flex justify-content-around">
                 <div class="dropdown w-50">
                     <button class="btn btn-secondary dropdown-toggle mt-5" type="button" id="dropdownMenu2"
@@ -305,22 +317,24 @@
             <div class="apple border border-5 rounded d-flex align-middle">
                 <i class="fab fa-apple text-white"></i>
                 <div class="d-block">
-                    <h5>Download on the</h5>
-                    <h3 class="mt-0">App Store</h3>
+                    <h5 class="text-white">Download on the</h5>
+                    <h3 class=" text-white mt-0">App Store</h3>
                 </div>
             </div>
+
             <div class="play">
                 <div class="apple border border-5 rounded d-flex align-middle mt-5">
-                    <i class="fab fa-apple text-white"></i>
+                    <i class="fab fa-google-play text-white"></i>
                     <div class="d-block">
-                        <h5>Download on the</h5>
-                        <h3 class="mt-0">App Store</h3>
+                        <h5 class="text-white">Download on the</h5>
+                        <h3 class="text-white mt-0">App Store</h3>
                     </div>
                 </div>
             </div>
-        </div>
+            </a>
 
     </footer>
+
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
